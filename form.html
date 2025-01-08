@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formtag</title>
+</head>
+
+<body>
+
+    <h1>FORM TAG</h1>
+    <table border="2" width="600">
+        <td>
+            <br>
+            <form action="" autocomplete="off">
+
+
+                <fieldset>
+                    <legend>userinfo</legend>
+
+                    <label for="un">username:</label>
+                    <input type="text" id="un" placeholder="enter your name" name="username" value="Nandhivarman"><br><br>
+                    <label for="mail">email:</label>
+                    <input type="email" id="mail" placeholder="enter your mailid" name="email"><br><br>
+                    <label for="pass">password:</label>
+                    <input type="password" id="pass" placeholder="enter your password"> <br><br>
+                </fieldset>
+                <fieldset>
+
+                    <legend>personal info</legend>
+
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" placeholder="enter your age"> <br><br>
+                    <label for="PhNo">Phone No: </label>
+                    <input type="tel" placeholder="Enter your phone number" id="PhNo"><br><br>
+                    <label for="uadd">Address: </label>
+                    <br>
+                    <textarea name="user address" id="uadd"></textarea><br><br>
+
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Timing</legend>
+                    <label for="udate">date:</label>
+                    <input type="date" id="udate"><br>
+                    <label for="uweek">week:</label>
+                    <input type="week" id="uweek"><br>
+                    <label for="umonth">month:</label>
+                    <input type="month" id="umonth">
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="course" name="markuplanguage" value="html">
+                    <label for="course">HTML</label>
+                    <input type="checkbox" id="course" name="styling" value="css">
+                    <label for="course">CSS</label>
+                    <input type="checkbox" id="course" name="codeing" value="javascript">
+                    <label for="course">JAVA SCRIPT</label><br><br>
+                    <label>select gender :</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">male</label><br>
+                    <input type="radio" id="women" name="gender" value="women">
+                    <label for="women">women</label><br>
+                    <input type="radio" id="trangender" name="gender" value="trangender">
+                    <label for="trangender">trangender</label>
+                </fieldset>
+                <fieldset>
+                    <legend>select option:</legend>
+                    <label for="">select subject</label>
+                    <select name="course" id="">
+                        <optgroup label="frontend">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="javascript">javascript</option>
+                        </optgroup>
+                        <optgroup label="backend">
+                            <option value="python">PYTHON</option>
+                            <option value="sql">SQL</option>
+                            <option value="django">DJANGO</option>
+                        </optgroup>
+                        <optgroup label="java">
+                            <option value="java">JAVA</option>
+                            <option value="c++">C++</option>
+                        </optgroup>
+                    </select><br>
+                    <label for="">Salary</label>
+                    <input type="range" name="sal" id="" min="100" max="200000">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Button type:</legend>
+                    <input type="submit">&nbsp; &nbsp; &nbsp;
+                
+                    <input type="reset">
+                </fieldset>
+                <fieldset>
+                    <legand>mytry:</legand>
+                    <label for="">select the car</label>
+                    <select name="car" id="">
+                        <optgroup label="hyundai">
+                            <option value="creta">creta</option>
+                            <option value="venue">venue</option>
+                            <option value="santro">santro</option>
+
+                        </optgroup>
+                        <optgroup label="tata">
+                            <option value="punch">punch</option>
+                            <option value="safari">safari</option>
+                            <option value="nexon">nexon</option>
+
+                        </optgroup>
+                    </select>
+                </fieldset>
+
+
+
+                <br><br>
+
+              
+
+            </form>
+            <br>
+
+        </td>
+    </table>
+  
+
+</body>
+
+</html>
